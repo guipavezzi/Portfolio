@@ -1,0 +1,16 @@
+.border-icons {
+    @apply border bg-colorSideBar mr-2 ml-2 shadow rounded-xl flex flex-col justify-center items-center h-16 w-16 md:w-20 md:h-20 lg:w-24 lg:h-24; 
+
+    span{
+        @apply font-medium
+        mt-1
+    }
+    .name{
+        @apply text-[0.725rem] font-semibold md:text-[0.825rem] lg:text-[1rem]
+    }
+}
+
+
+.icons {
+    @apply text-[3.2rem];
+}
