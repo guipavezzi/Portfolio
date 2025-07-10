@@ -7,11 +7,12 @@ import { SidebarService } from './components/sidebar/sidebar.service';
 import { CommonModule } from '@angular/common';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { TechnologiesComponent } from './components/technologies/technologies.component';
+import { FooterComponent } from "./components/footer/footer.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, SidebarComponent, IntroComponent, AboutComponent, CompaniesWorkedComponent, ProjectsComponent, TechnologiesComponent],
+  imports: [CommonModule, SidebarComponent, IntroComponent, AboutComponent, CompaniesWorkedComponent, ProjectsComponent, TechnologiesComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
