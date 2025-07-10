@@ -1,13 +1,8 @@
 <app-sidebar></app-sidebar>
-
-<div [ngClass]="{
-  'lg:ml-[300px]': isSidebarOpen, 
-  'ml-0': !isSidebarOpen, 
-  'transition-all duration-500 ease-in-out': true
-}" class="overflow-y-auto">
-<app-intro id="home"></app-intro>
-<app-about id="about"></app-about>
-<app-companies-worked id="companiesWorked"></app-companies-worked>
-<app-contacts id="contacts"></app-contacts>
+<div class="min-h-screen md:pl-20 pb-16">
+  <app-intro id="home"></app-intro>
+  <app-about id="about"></app-about>
+  <app-technologies id="skills"></app-technologies>
+  <app-companies-worked id="companiesWorked"></app-companies-worked>
+  <app-projects id="projects"></app-projects>
 </div>
-

@@ -11,7 +11,7 @@ module.exports = {
         blue200: '#0466C8',
         colorSideBar: '#F8F9FA',
         colorSideBarHover: '#DEE2E6',
-        colorBody: '#DEE2E6'
+        colorBody: '#fffff'
       },
     },
   },

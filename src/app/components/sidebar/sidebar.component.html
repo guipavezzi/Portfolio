@@ -1,49 +1,44 @@
-<span class="absolute lg:fixed text-black text-4xl top-5 left-4 cursor-pointer" (click)="toggleSidebar()">
-    <mat-icon class="px-2 center rounded-md">menu</mat-icon>
-</span>
-
+<!-- Sidebar responsiva: fixa à esquerda em telas grandes, fixa embaixo em telas médias/pequenas -->
 <div
-    [ngClass]="{'sidebar-open': (sidebarService.sidebarStatus$ | async), 'sidebar-closed': !(sidebarService.sidebarStatus$ | async)}"
-    class="sidebar overflow-hidden fixed inset-0 lg:left-0 lg:w-[300px] w-full transition-transform duration-500 z-50 p-2 bg-colorSideBar shadow h-screen max-h-screen flex flex-col"
-    style="pointer-events: auto;"
->
-    <div class="text-black text-xl flex-grow-auto">
-        <div class="p-2.5 mt-1 flex items-center justify-between rounded-md">
-            <mat-icon>description</mat-icon>
-            <span class="text-[15px] ml-3 text-xl text-black font-semibold">Portfólio</span>
-            <button (click)="toggleSidebar()">
-                <mat-icon class="text-black">close</mat-icon>
-            </button>
-        </div>
-
-        <div>
-            <div class="flex flex-col justify-center items-center mt-4">
-                <div class="w-48 h-48 rounded-full overflow-hidden border-2 border-black">
-                    <img src="../../../assets/myPic.png" alt="Sua Foto" class="w-full h-full object-cover ">
-                </div>
-                <span class="text-2xl font-bold text-black mt-4">Guilherme Pavezzi</span>
-            </div>
-
-            <hr class="my-2 text-black">
-
-            <div>
-                <a (click)="scrollTo('home')" class="p-2.5 hover:bg-colorSideBarHover mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-sidebarColorHover">
-                    <mat-icon class="text-black">home</mat-icon>
-                    <span class="text-[15px] ml-4 text-black font-medium">Home</span>
-                </a>
-                <a (click)="scrollTo('about')" class="p-2.5 mt-2 hover:bg-colorSideBarHover flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-sidebarColorHover">
-                    <mat-icon class="text-black">person</mat-icon>
-                    <span class="text-[15px] ml-4 text-black font-medium">Sobre mim</span>
-                </a>
-                <a (click)="scrollTo('companiesWorked')" class="p-2.5 mt-2 hover:bg-colorSideBarHover flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-sidebarColorHover">
-                    <mat-icon class="text-black">work</mat-icon>
-                    <span class="text-[15px] ml-4 text-black font-medium">Empresas trabalhadas</span>
-                </a>
-                <a (click)="scrollTo('contacts')" class="p-2.5 mt-2 hover:bg-colorSideBarHover flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-sidebarColorHover">
-                    <mat-icon class="text-black">call</mat-icon>
-                    <span class="text-[15px] ml-4 text-black font-medium">Contatos</span>
-                </a>
-            </div>
-        </div>
-    </div>
+  class="fixed z-40 shadow-lg
+    left-0 top-0 h-screen w-20 flex-col items-center justify-center gap-8 bg-[#240046]
+    md:flex hidden
+  ">
+  <button (click)="scrollToSection('home')" mat-icon-button class="text-white hover:bg-[#5a189a] rounded-full p-3 transition" aria-label="Home">
+    <mat-icon>home</mat-icon>
+  </button>
+  <button (click)="scrollToSection('about')" mat-icon-button class="text-white hover:bg-[#5a189a] rounded-full p-3 transition" aria-label="Sobre mim">
+    <mat-icon>person</mat-icon>
+  </button>
+  <button (click)="scrollToSection('skills')" mat-icon-button class="text-white hover:bg-[#5a189a] rounded-full p-3 transition" aria-label="Skills">
+    <mat-icon>code</mat-icon>
+  </button>
+  <button (click)="scrollToSection('companiesWorked')" mat-icon-button class="text-white hover:bg-[#5a189a] rounded-full p-3 transition" aria-label="Empresas trabalhadas">
+    <mat-icon>work_history</mat-icon>
+  </button>
+  <button (click)="scrollToSection('projects')" mat-icon-button class="text-white hover:bg-[#5a189a] rounded-full p-3 transition" aria-label="Projetos">
+    <mat-icon>book</mat-icon>
+  </button>
 </div>
+<div
+  class="fixed z-40 shadow-lg
+    bottom-0 left-0 w-full h-16 flex-row items-center justify-center gap-6 bg-[#240046]
+    flex md:hidden
+  ">
+  <button (click)="scrollToSection('home')" mat-icon-button class="text-white hover:bg-[#5a189a] rounded-full p-2 transition" aria-label="Home">
+    <mat-icon>home</mat-icon>
+  </button>
+  <button (click)="scrollToSection('about')" mat-icon-button class="text-white hover:bg-[#5a189a] rounded-full p-2 transition" aria-label="Sobre mim">
+    <mat-icon>person</mat-icon>
+  </button>
+  <button (click)="scrollToSection('skills')" mat-icon-button class="text-white hover:bg-[#5a189a] rounded-full p-2 transition" aria-label="Skills">
+    <mat-icon>code</mat-icon>
+  </button>
+  <button (click)="scrollToSection('companiesWorked')" mat-icon-button class="text-white hover:bg-[#5a189a] rounded-full p-2 transition" aria-label="Empresas trabalhadas">
+    <mat-icon>work_history</mat-icon>
+  </button>
+  <button (click)="scrollToSection('projects')" mat-icon-button class="text-white hover:bg-[#5a189a] rounded-full p-2 transition" aria-label="Projetos">
+    <mat-icon>book</mat-icon>
+  </button>
+</div>
+
