@@ -15,4 +15,8 @@ export class LanguageComponent {
   changeLang(lang: string) {
     this.app.changeLang(lang);
   }
+
+  get currentLang() {
+    return this.app.currentLang;
+  }
 }

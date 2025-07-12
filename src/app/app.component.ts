@@ -20,6 +20,7 @@ import { LanguageComponent } from "./components/language/language.component";
 })
 export class AppComponent {
   isSidebarOpen = false;
+  public currentLang: string;
 
   constructor(private sidebarService: SidebarService, private translate: TranslateService) {
     translate.addLangs(['en', 'pt']);
@@ -29,6 +30,10 @@ export class AppComponent {
       this.isSidebarOpen = isOpen;
     });
 
+    this.currentLang = this.translate.currentLang || this.translate.getDefaultLang();
+    this.translate.onLangChange.subscribe(event => {
+      this.currentLang = event.lang;
+    });
   }
 
   changeLang(lang: string) {

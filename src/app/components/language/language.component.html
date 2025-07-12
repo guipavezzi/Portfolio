@@ -1,16 +1,28 @@
 <div class="absolute top-4 right-4 z-50 flex gap-2">
   <button
     (click)="changeLang('pt')"
-    class="w-10 h-10 rounded-full bg-white border border-gray-300 hover:scale-105 transition-transform shadow-md overflow-hidden p-0"
+    [ngClass]="{
+      'border-green-400 border-2': currentLang === 'pt',
+      'border-gray-300': currentLang !== 'pt'
+    }"
+    class="w-10 h-10 rounded-full bg-white hover:scale-105 transition-transform shadow-md overflow-hidden p-0"
     aria-label="Português"
   >
-    <img src="../../../assets/flags/br-flag.png" alt="Bandeira do Brasil" class="w-full h-full object-cover rounded-full" />
+    <div class="w-full h-full rounded-full overflow-hidden bg-white flex items-center justify-center">
+      <img src="../../../assets/flags/br-flag.png" alt="Bandeira do Brasil" class="w-full h-full object-cover" />
+    </div>
   </button>
   <button
     (click)="changeLang('en')"
-    class="w-10 h-10 rounded-full bg-white border border-gray-300 hover:scale-105 transition-transform shadow-md overflow-hidden p-0"
+    [ngClass]="{
+      'border-blue-400 border-2': currentLang === 'en',
+      'border-gray-300': currentLang !== 'en'
+    }"
+    class="w-10 h-10 rounded-full bg-white hover:scale-105 transition-transform shadow-md overflow-hidden p-0"
     aria-label="English"
   >
-    <img src="../../../assets/flags/eua-flag.png" alt="Bandeira dos EUA" class="w-full h-full object-cover rounded-full" />
+    <div class="w-full h-full rounded-full overflow-hidden bg-white flex items-center justify-center">
+      <img src="../../../assets/flags/eua-flag.png" alt="Bandeira dos EUA" class="w-full h-full object-cover" />
+    </div>
   </button>
 </div>
