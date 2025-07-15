@@ -1,0 +1,29 @@
+{
+    "HOME": {
+        "TITLE": "Hi, I am",
+        "NAME": "Guilherme Fernandes Pavezzi",
+        "DESCRIPTION": "Full Stack Software Developer, passionate about creating modern and functional web solutions, always seeking efficient and well-structured applications."
+    },
+    "ABOUT": {
+        "TITLE": "About Me",
+        "DESCRIPTION": "I am a full stack software developer with a passion for technology and the art of creating digital solutions. I have been studying software development since 2020 and, since then, I have been improving my skills in C#, Angular, and other technologies. I have experience in creating and enhancing APIs, microservices, and web interfaces, always striving to apply best practices and deliver functional solutions. I am constantly learning and motivated by challenges that allow me to grow and contribute to innovative projects."
+    },
+    "JOBS":{
+            "TITLE": "Companies Worked",
+            "DESCRIPTION": "I worked as a Junior Developer at Dnaxis, in the team responsible for tintometric systems, focusing on the development and maintenance of APIs and web interfaces. I actively contributed to the creation and correction of APIs in C# and ASP.NET MVC, implementing new features to meet client needs in new projects. Additionally, I participated in the development of interfaces with Angular, ensuring efficient communication between front-end and back-end. I worked in a collaborative environment, always seeking continuous code improvement, adherence to best development practices, and delivering quality results aligned with established deadlines.",
+            "DESCRIPTION2": "I worked as an intern and later as a Junior Developer at Online Applications, contributing to the development of solutions in the EDI (Electronic Data Interchange) area, focusing on the Azul Linhas Aéreas system. I developed microservices in C#, participating in the entire integration flow, from receiving and processing invoices—including reading files in NOTFIS, JSON, and XML formats—to sending EDI files such as OCOREN, CONEMB, and DOCCOB to Azul's business partners. I was also involved in analyzing and fixing issues, implementing improvements, and ensuring the quality of data transmitted between systems."
+    },
+    "PROJECTS": {
+        "TITLE": "Projects"
+    },
+    "MYPORTFOLIO" : {
+        "TITLE": "My Portfolio",
+        "DESCRIPTION": "Personal website developed with Angular, TypeScript, and Tailwind CSS, showcasing projects, skills, and experiences.",
+        "BUTTON": "View in Github"
+    },
+    "PASSIN": {
+        "TITLE": "PassIn API",
+        "DESCRIPTION": "Project developed during NLW to learn about DDD and best practices for API development with C# and ASP.NET Core.",
+        "BUTTON": "View in Github"
+    }
+}
