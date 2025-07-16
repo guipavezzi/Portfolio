@@ -24,8 +24,8 @@ jobs:
       - name: Instalar dependências
         run: npm install
 
-      - name: Build Angular
-        run: npx ng build --base-href=/
+      - name: Build Angular com base-href correto
+        run: npx ng build --configuration production --base-href=/Portfolio/
 
       - name: Deploy para GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
