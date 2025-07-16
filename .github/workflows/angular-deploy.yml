@@ -24,12 +24,12 @@ jobs:
       - name: Instalar dependências
         run: npm install
 
-      - name: Build Angular com base-href correto
-        run: npx ng build --configuration production --base-href=/Portfolio/
+      - name: Build Angular com base href raiz
+        run: npx ng build --configuration production --base-href=/
 
       - name: Deploy para GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: ./dist/portfolio/browser
+          publish_dir: ./dist/portfolio
