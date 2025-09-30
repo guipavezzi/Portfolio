@@ -3,8 +3,8 @@
   <div class="flex flex-col w-full max-w-4xl gap-10">
     <div class="w-full flex flex-col md:flex-row items-center bg-colorSideBar border rounded-lg shadow-xl p-4 sm:p-8">
       <div class="w-full md:w-1/2 flex justify-center mb-4 md:mb-0">
-        <div class="w-full aspect-video min-h-[120px] bg-gray-300 rounded-lg flex items-center justify-center overflow-hidden max-w-md sm:max-w-xl mx-auto">
-          <img src="../../../assets/imageportfolio.png" alt="Projeto 1" class="object-contain w-full h-full"/>
+        <div class="w-full min-h-[120px] bg-gray-300 rounded-lg flex items-center justify-center overflow-hidden">
+          <img src="../../../assets/imageportfolio.png" alt="Projeto 1" class="object- w-full h-full" />
         </div>
       </div>
       <div class="w-full md:w-1/2 flex flex-col justify-between md:pl-6 sm:pl-10">
@@ -15,33 +15,35 @@
         <div class="flex flex-row gap-4 sm:gap-6 items-center mb-4 sm:mb-6">
           <span class="icon-[devicon-plain--angular] icons text-[1.7rem] sm:text-[2.2rem] text-red-600"></span>
           <span class="icon-[devicon-plain--typescript] icons text-[1.7rem] sm:text-[2.2rem] text-blue-700"></span>
-          <span class="icon-[devicon-plain--tailwindcss-wordmark] icons text-[3rem] sm:text-[5rem] text-blue-700"></span>
+          <span
+            class="icon-[devicon--tailwindcss] icons text-[1.7rem] sm:text-[2.2rem]"></span>
         </div>
         <a href="https://github.com/guipavezzi/Portfolio" target="_blank" rel="noopener noreferrer"
-           class="mt-2 px-4 py-2 bg-[#240046] text-white rounded-md font-semibold shadow hover:bg-[#5a189a] transition text-center w-fit">
+          class="mt-2 px-4 py-2 bg-[#240046] text-white rounded-md font-semibold shadow hover:bg-[#5a189a] transition text-center w-fit">
           {{"MYPORTFOLIO.BUTTON" | translate }}
         </a>
       </div>
     </div>
+
     <div class="w-full flex flex-col md:flex-row items-center bg-colorSideBar border rounded-lg shadow-xl p-4 sm:p-8">
       <div class="w-full md:w-1/2 flex justify-center mb-4 md:mb-0">
-        <div class="w-full aspect-video min-h-[120px] bg-gray-300 rounded-lg flex items-center justify-center overflow-hidden max-w-md sm:max-w-xl mx-auto">
-          <img src="../../../assets/PassIn.jpeg" alt="Projeto 2" class="object-contain w-full h-full"/>
+        <div class="w-full aspect-video min-h-[120px] bg-gray-300 rounded-lg flex items-center justify-center">
+          <mat-icon
+            class="text-gray-600 text-[3rem] flex items-center justify-center leading-none !w-auto !h-auto">construction</mat-icon>
         </div>
       </div>
-      <div class="w-full md:w-1/2 flex flex-col justify-between md:pl-6 sm:pl-10">
-        <span class="text-xl sm:text-2xl font-bold mb-2 sm:mb-4">{{"PASSIN.TITLE" | translate }}</span>
+      <div class="w-full md:w-1/2 flex flex-col justify-center md:pl-6 sm:pl-10">
+        <span class="text-xl sm:text-2xl font-bold mb-2 sm:mb-4">{{ 'IN_CONSTRUCTION.TITLE' | translate }}</span>
         <p class="text-base sm:text-lg text-gray-800 mb-4 sm:mb-6">
-          {{"PASSIN.DESCRIPTION" | translate }}
+          {{ 'IN_CONSTRUCTION.DESCRIPTION' | translate }}
         </p>
         <div class="flex flex-row gap-4 sm:gap-6 items-center mb-4 sm:mb-6">
-          <span class="icon-[devicon-plain--csharp] icons text-[1.7rem] sm:text-[2.2rem] text-purple-700"></span>
-          <span class="icon-[devicon-plain--dotnetcore] icons text-[1.7rem] sm:text-[2.2rem] text-purple-700"></span>
+          <span class="icon-[devicon-plain--angular] icons text-[1.7rem] sm:text-[2.2rem] text-red-600"></span>
+          <span class="icon-[devicon-plain--typescript] icons text-[1.7rem] sm:text-[2.2rem] text-blue-700"></span>
+          <span class="icon-[devicon--tailwindcss] icons text-[1.7rem] sm:text-[2.2rem]"></span>
+          <span class="icon-[devicon-plain--csharp] text-[1.7rem] sm:text-[2.2rem] text-purple-600"></span>
+          <span class="icon-[devicon-plain--dotnetcore] text-[1.7rem] sm:text-[2.2rem] text-purple-600"></span>
         </div>
-        <a href="https://github.com/guipavezzi/PassIn" target="_blank" rel="noopener noreferrer"
-           class="mt-2 px-4 py-2 bg-[#240046] text-white rounded-md font-semibold shadow hover:bg-[#5a189a] transition text-center w-fit">
-          {{"PASSIN.BUTTON" | translate }}
-        </a>
       </div>
     </div>
   </div>
