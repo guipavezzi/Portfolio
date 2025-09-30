@@ -21,6 +21,10 @@
         "DESCRIPTION": "Personal website developed with Angular, TypeScript, and Tailwind CSS, showcasing projects, skills, and experiences.",
         "BUTTON": "View in Github"
     },
+    "IN_CONSTRUCTION":{
+        "TITLE": "In Construction",
+        "DESCRIPTION": "This project is still under development. 🚧"
+    },
     "PASSIN": {
         "TITLE": "PassIn API",
         "DESCRIPTION": "Project developed during NLW to learn about DDD and best practices for API development with C# and ASP.NET Core.",
