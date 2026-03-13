@@ -1,17 +1,23 @@
 {
+    "NAVBAR": {
+        "ABOUT": "About",
+        "SKILLS" : "Skills",
+        "EXPERIENCE": "Experiences",
+        "PROJECTS": "Projects"
+    },
     "HOME": {
         "TITLE": "Hi, I am",
         "NAME": "Guilherme Fernandes Pavezzi",
-        "DESCRIPTION": "Full Stack Software Developer, passionate about creating modern and functional web solutions, always seeking efficient and well-structured applications."
+        "DESCRIPTION": "Full Stack Developer specializing in C# and .NET ecosystems. I build modern web applications with Angular, focusing on robust API architecture and scalable solutions that prioritize performance and clean code."
     },
     "ABOUT": {
         "TITLE": "About Me",
-        "DESCRIPTION": "I am a full stack software developer with a passion for technology and the art of creating digital solutions. I have been studying software development since 2020 and, since then, I have been improving my skills in C#, Angular, and other technologies. I have experience in creating and enhancing APIs, microservices, and web interfaces, always striving to apply best practices and deliver functional solutions. I am constantly learning and motivated by challenges that allow me to grow and contribute to innovative projects."
+        "DESCRIPTION": "Since 2020, I have been crafting robust digital solutions as a Full Stack Developer. My practical experience is centered on the C# and Angular ecosystem, with a strong focus on building and optimizing APIs and microservices architectures. I prioritize delivering clean code and functional interfaces, constantly evolving my skillset to solve complex challenges with modern technology."
     },
     "JOBS":{
             "TITLE": "Companies Worked",
-            "DESCRIPTION": "I worked as a Junior Developer at Dnaxis, in the team responsible for tintometric systems, focusing on the development and maintenance of APIs and web interfaces. I actively contributed to the creation and correction of APIs in C# and ASP.NET MVC, implementing new features to meet client needs in new projects. Additionally, I participated in the development of interfaces with Angular, ensuring efficient communication between front-end and back-end. I worked in a collaborative environment, always seeking continuous code improvement, adherence to best development practices, and delivering quality results aligned with established deadlines.",
-            "DESCRIPTION2": "I worked as an intern and later as a Junior Developer at Online Applications, contributing to the development of solutions in the EDI (Electronic Data Interchange) area, focusing on the Azul Linhas Aéreas system. I developed microservices in C#, participating in the entire integration flow, from receiving and processing invoices—including reading files in NOTFIS, JSON, and XML formats—to sending EDI files such as OCOREN, CONEMB, and DOCCOB to Azul's business partners. I was also involved in analyzing and fixing issues, implementing improvements, and ensuring the quality of data transmitted between systems."
+            "DESCRIPTION": "Developed and maintained tinting systems, focusing on APIs (C# / ASP.NET MVC) and web interfaces using Angular. Responsible for implementing new features and ensuring seamless front-end/back-end integration, while following coding best practices and meeting strict project deadlines.",
+            "DESCRIPTION2": "Developed EDI (Electronic Data Interchange) solutions for Azul Airlines. Built C# microservices for invoice processing and data integration across JSON, XML, and NOTFIS formats. Managed the analysis, troubleshooting, and transmission of logistics files (OCOREN, CONEMB, DOCCOB), ensuring data quality between commercial partners."
     },
     "MONTHS": {
         "JANUARY": "January",
@@ -28,20 +34,18 @@
         "DECEMBER": "December"
     },
     "PROJECTS": {
-        "TITLE": "Projects"
+        "TITLE": "Projects",
+        "BUTTON" : "View in Github"
     },
     "MYPORTFOLIO" : {
         "TITLE": "My Portfolio",
-        "DESCRIPTION": "Personal website developed with Angular, TypeScript, and Tailwind CSS, showcasing projects, skills, and experiences.",
-        "BUTTON": "View in Github"
+        "DESCRIPTION": "Personal website developed with Angular, TypeScript, and Tailwind CSS, showcasing projects, skills, and experiences."
     },
     "IN_CONSTRUCTION":{
-        "TITLE": "In Construction",
+        "TITLE": "Amarildo Pavezzi Gardening",
         "DESCRIPTION": "This project is still under development. 🚧"
     },
-    "PASSIN": {
-        "TITLE": "PassIn API",
-        "DESCRIPTION": "Project developed during NLW to learn about DDD and best practices for API development with C# and ASP.NET Core.",
-        "BUTTON": "View in Github"
+    "FOOTER":{
+        "TEXT" : "Building the future of the web with .NET and Angular. If you’re looking for a developer committed to robustness and innovation, let’s connect"
     }
 }

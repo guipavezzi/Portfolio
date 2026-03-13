@@ -1,17 +1,23 @@
 {
+    "NAVBAR": {
+        "ABOUT": "Sobre Mim",
+        "SKILLS" : "Habilidades",
+        "EXPERIENCE": "Experiências",
+        "PROJECTS": "Projetos"
+    },
     "HOME": {
         "TITLE": "Olá, eu sou",
         "NAME": "Guilherme Fernandes Pavezzi",
-        "DESCRIPTION": "Desenvolvedor de Software Full Stack, apaixonado por criar soluções web modernas e funcionais, sempre buscando aplicações eficientes e bem estruturadas."
+        "DESCRIPTION": "Desenvolvedor Full Stack especializado em ecossistemas C# e .NET. Construo aplicações web modernas com Angular, focando na arquitetura de APIs robustas e soluções escaláveis que priorizam performance e código limpo."
     },
     "ABOUT": {
         "TITLE": "Sobre Mim",
-        "DESCRIPTION": "Sou um desenvolvedor de software full stack com paixão por tecnologia e pela arte de criar soluções digitais. Estudo desenvolvimento de software desde 2020 e, desde então, venho aprimorando minhas habilidades em C#, Angular e outras tecnologias. Tenho experiência na criação e melhoria de APIs, microsserviços e interfaces web, sempre buscando aplicar boas práticas e entregar soluções funcionais. Estou em constante aprendizado e motivado por desafios que me permitam evoluir e contribuir para projetos inovadores."
+        "DESCRIPTION": "Desde 2020, venho transformando linhas de código em soluções robustas como desenvolvedor Full Stack. Minha experiência prática é focada no ecossistema C# e Angular, com ênfase na construção e otimização de APIs e arquiteturas de microsserviços. Priorizo sempre a entrega de código limpo e interfaces funcionais, evoluindo constantemente minhas habilidades para resolver desafios complexos com tecnologia de ponta."
     },
     "JOBS": {
         "TITLE": "Empresas Trabalhadas",
-        "DESCRIPTION": "Atuei como Desenvolvedor Júnior na Dnaxis, na equipe responsável por sistemas tintométricos, com foco no desenvolvimento e manutenção de APIs e interfaces web. Contribuí ativamente na criação e correção de APIs em C# e ASP.NET MVC, implementando novas funcionalidades para atender às necessidades de clientes em novos projetos. Além disso, participei do desenvolvimento de interfaces com Angular, assegurando uma comunicação eficiente entre front-end e back-end. Trabalhei em um ambiente colaborativo, buscando sempre a melhoria contínua do código, aderência a boas práticas de desenvolvimento e entregas com qualidade e alinhadas aos prazos estabelecidos.",
-        "DESCRIPTION2": "Atuei como Estagiário e, posteriormente, como Desenvolvedor Júnior na Online Applications, contribuindo para o desenvolvimento de soluções na área de EDI (Electronic Data Interchange), com foco no sistema da Azul Linhas Aéreas. Desenvolvi microsserviços em C#, participando de todo o fluxo de integração, desde o recebimento e processamento de notas fiscais — com leitura de arquivos nos formatos NOTFIS, JSON e XML — até o envio de arquivos EDI como OCOREN, CONEMB e DOCCOB para os parceiros comerciais da Azul. Também tive envolvimento na análise e correção de falhas, implementação de melhorias e na garantia da qualidade dos dados transmitidos entre os sistemas."
+        "DESCRIPTION": "Atuei no desenvolvimento e manutenção de sistemas tintométricos, com foco em APIs (C# / ASP.NET MVC) e interfaces web em Angular. Fui responsável pela implementação de novas funcionalidades e pela garantia de uma comunicação eficiente entre o front-end e o back-end, sempre aplicando boas práticas de código e entregas orientadas a prazos.",
+        "DESCRIPTION2": "Focado no desenvolvimento de soluções de EDI para a Azul Linhas Aéreas. Desenvolvi microsserviços em C# para processamento de notas fiscais e integração de dados, manipulando formatos como JSON, XML e NOTFIS. Realizei a análise de falhas e o envio de arquivos logísticos (OCOREN, CONEMB, DOCCOB), garantindo a integridade da comunicação entre parceiros comerciais."
     },
     "MONTHS": {
         "JANUARY": "Janeiro",
@@ -28,7 +34,8 @@
         "DECEMBER": "Dezembro"
     },
     "PROJECTS": {
-        "TITLE": "Projetos"
+        "TITLE": "Projetos",
+        "BUTTON":"Ver no Github"
     },
     "MYPORTFOLIO": {
         "TITLE": "Meu Portfólio",
@@ -37,12 +44,11 @@
     },
     "IN_CONSTRUCTION":
     {
-        "TITLE": "Em Construção",
-        "DESCRIPTION": "Este projeto ainda está em desenvolvimento. 🚧"
+        "TITLE": "Amarildo Pavezzi Jardinagem",
+        "DESCRIPTION": "Este projeto ainda está em desenvolvimento. 🚧",
+        "BUTTON": "Visitar Site"
     },
-    "PASSIN": {
-        "TITLE": "PassIn API",
-        "DESCRIPTION": "Projeto desenvolvido no NLW para aprender sobre DDD e práticas de desenvolvimento de APIs com C# e ASP.NET Core.",
-        "BUTTON": "Ver no Github"
+    "FOOTER": {
+        "TEXT": "Construindo o futuro da web com .NET e Angular. Se você busca um desenvolvedor comprometido com robustez e inovação, entre em contato"
     }
 }
