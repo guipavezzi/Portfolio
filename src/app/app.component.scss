@@ -1,12 +1,12 @@
 .hide-scrollbar {
-    overflow-y: auto; /* Permitir rolagem vertical */
+    overflow-y: auto;
 }
 
 .hide-scrollbar::-webkit-scrollbar {
-    display: none; /* Para Chrome, Safari e outros navegadores baseados em WebKit */
+    display: none;
 }
 
 .hide-scrollbar {
-    -ms-overflow-style: none; /* Para Internet Explorer e Edge */
-    scrollbar-width: none; /* Para Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }

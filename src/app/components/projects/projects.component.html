@@ -1,50 +1,66 @@
-<div class="min-h-screen flex flex-col items-center justify-center px-2">
-  <span class="text-center text-3xl font-semibold mt-4 mb-8">{{'PROJECTS.TITLE' | translate}}</span>
-  <div class="flex flex-col w-full max-w-4xl gap-10">
-    <div class="w-full flex flex-col md:flex-row items-center bg-colorSideBar border rounded-lg shadow-xl p-4 sm:p-8">
-      <div class="w-full md:w-1/2 flex justify-center mb-4 md:mb-0">
-        <div class="w-full min-h-[120px] bg-gray-300 rounded-lg flex items-center justify-center overflow-hidden">
-          <img src="assets/imageportfolio.png" alt="Projeto 1" class="object- w-full h-full" />
+<section class="py-24">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8">
+    <!-- Project 1 -->
+    <div class="mb-24 last:mb-0">
+      <div class="relative grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+        <div>
+          <span class="text-3xl lg:text-4xl font-bold text-white">{{'MYPORTFOLIO.TITLE' | translate }}</span>
+          <div class="relative z-10 mb-6 mt-6">
+            <div class="glass-lg rounded-2xl p-6 lg:p-8 lg:mr-[-20%]">
+              <p class="text-white/90 text-base lg:text-lg leading-relaxed">
+                {{'MYPORTFOLIO.DESCRIPTION' | translate }}
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-row gap-4 items-center mb-6 flex-wrap">
+            <span class="icon-[devicon-plain--angular] text-3xl text-red-400"></span>
+            <span class="icon-[devicon-plain--typescript] text-3xl text-blue-400"></span>
+            <span class="icon-[devicon--tailwindcss] text-3xl text-cyan-400"></span>
+          </div>
+          <a href="https://github.com/guipavezzi/Portfolio" target="_blank" rel="noopener noreferrer" class="inline-block px-6 py-3 bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-500 hover:to-cyan-500 text-white rounded-lg font-semibold shadow-lg hover:shadow-xl transition duration-300">
+            {{'PROJECTS.BUTTON' | translate }}
+          </a>
         </div>
-      </div>
-      <div class="w-full md:w-1/2 flex flex-col justify-between md:pl-6 sm:pl-10">
-        <span class="text-xl sm:text-2xl font-bold mb-2 sm:mb-4">{{"MYPORTFOLIO.TITLE" | translate }}</span>
-        <p class="text-base sm:text-lg text-gray-800 mb-4 sm:mb-6">
-          {{"MYPORTFOLIO.DESCRIPTION" | translate }}
-        </p>
-        <div class="flex flex-row gap-4 sm:gap-6 items-center mb-4 sm:mb-6">
-          <span class="icon-[devicon-plain--angular] icons text-[1.7rem] sm:text-[2.2rem] text-red-600"></span>
-          <span class="icon-[devicon-plain--typescript] icons text-[1.7rem] sm:text-[2.2rem] text-blue-700"></span>
-          <span
-            class="icon-[devicon--tailwindcss] icons text-[1.7rem] sm:text-[2.2rem]"></span>
+        <div>
+          <div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-slate-950 p-2 lg:p-3 shadow-2xl shadow-purple-500/20">
+            <div class="relative w-full h-full rounded-lg overflow-hidden">
+              <img src="assets/image_portfolio.png" alt="Projeto 1" class="w-full h-full object-cover" />
+            </div>
+          </div>
         </div>
-        <a href="https://github.com/guipavezzi/Portfolio" target="_blank" rel="noopener noreferrer"
-          class="mt-2 px-4 py-2 bg-[#240046] text-white rounded-md font-semibold shadow hover:bg-[#5a189a] transition text-center w-fit">
-          {{"MYPORTFOLIO.BUTTON" | translate }}
-        </a>
       </div>
     </div>
-
-    <div class="w-full flex flex-col md:flex-row items-center bg-colorSideBar border rounded-lg shadow-xl p-4 sm:p-8">
-      <div class="w-full md:w-1/2 flex justify-center mb-4 md:mb-0">
-        <div class="w-full aspect-video min-h-[120px] bg-gray-300 rounded-lg flex items-center justify-center">
-          <mat-icon
-            class="text-gray-600 text-[3rem] flex items-center justify-center leading-none !w-auto !h-auto">construction</mat-icon>
+    <!-- Project 2 -->
+    <div class="mb-24 last:mb-0">
+      <div class="relative grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center lg:grid-flow-dense">
+        <div class="lg:col-start-2">
+          <span class="text-3xl lg:text-4xl font-bold text-white mb-6 lg:block lg:text-right">{{ 'IN_CONSTRUCTION.TITLE' | translate }}</span>
+          <div class="relative z-10 mb-6 mt-6">
+            <div class="glass-lg rounded-2xl p-6 lg:p-8 lg:ml-[-20%]">
+              <p class="text-white/90 text-base lg:text-lg leading-relaxed">
+                {{ 'IN_CONSTRUCTION.DESCRIPTION' | translate }}
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-row gap-4 items-center flex-wrap lg:justify-end">
+            <span class="icon-[devicon-plain--angular] text-3xl text-red-400"></span>
+            <span class="icon-[devicon-plain--typescript] text-3xl text-blue-400"></span>
+            <span class="icon-[devicon--tailwindcss] text-3xl text-cyan-400"></span>
+          </div>
+          <div class="lg:flex lg:justify-end">
+            <a href="https://github.com/guipavezzi/amarildoJardinagem" target="_blank" rel="noopener noreferrer" class="inline-block mt-6 px-6 py-3 bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-500 hover:to-cyan-500 text-white rounded-lg font-semibold shadow-lg hover:shadow-xl transition duration-300">
+              {{'PROJECTS.BUTTON' | translate }}
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="w-full md:w-1/2 flex flex-col justify-center md:pl-6 sm:pl-10">
-        <span class="text-xl sm:text-2xl font-bold mb-2 sm:mb-4">{{ 'IN_CONSTRUCTION.TITLE' | translate }}</span>
-        <p class="text-base sm:text-lg text-gray-800 mb-4 sm:mb-6">
-          {{ 'IN_CONSTRUCTION.DESCRIPTION' | translate }}
-        </p>
-        <div class="flex flex-row gap-4 sm:gap-6 items-center mb-4 sm:mb-6">
-          <span class="icon-[devicon-plain--angular] icons text-[1.7rem] sm:text-[2.2rem] text-red-600"></span>
-          <span class="icon-[devicon-plain--typescript] icons text-[1.7rem] sm:text-[2.2rem] text-blue-700"></span>
-          <span class="icon-[devicon--tailwindcss] icons text-[1.7rem] sm:text-[2.2rem]"></span>
-          <span class="icon-[devicon-plain--csharp] text-[1.7rem] sm:text-[2.2rem] text-purple-600"></span>
-          <span class="icon-[devicon-plain--dotnetcore] text-[1.7rem] sm:text-[2.2rem] text-purple-600"></span>
+        <div class="lg:col-start-1 lg:row-start-1">
+          <div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-slate-950 p-2 lg:p-3 shadow-2xl shadow- -500/20">
+            <div class="relative w-full h-full rounded-lg overflow-hidden">
+              <img src="assets/image_garden_project.png" alt="Projeto 2" class="w-full h-full object-cover" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>

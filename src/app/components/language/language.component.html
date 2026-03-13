@@ -1,28 +1,24 @@
-<div class="absolute top-4 right-4 z-50 flex gap-2">
+<div class="fixed top-16 md:top-6 right-6 z-[100] flex gap-3">
   <button
     (click)="changeLang('pt')"
     [ngClass]="{
-      'border-green-400 border-2': currentLang === 'pt',
-      'border-gray-300': currentLang !== 'pt'
+      'ring-2 ring-purple-400': currentLang === 'pt',
+      'ring-1 ring-slate-700': currentLang !== 'pt'
     }"
-    class="w-10 h-10 rounded-full bg-white hover:scale-105 transition-transform shadow-md overflow-hidden p-0"
+    class="w-12 h-12 rounded-full bg-white/10 backdrop-blur-md hover:bg-white/20 transition-all shadow-lg border-2 border-white/50 overflow-hidden p-0 flex items-center justify-center"
     aria-label="Português"
   >
-    <div class="w-full h-full rounded-full overflow-hidden bg-white flex items-center justify-center">
-      <img src="assets/flags/br-flag.png" alt="Bandeira do Brasil" class="w-full h-full object-cover" />
-    </div>
+    <img src="assets/flags/br-flag.png" alt="Bandeira do Brasil" class="w-full h-full object-cover" />
   </button>
   <button
     (click)="changeLang('en')"
     [ngClass]="{
-      'border-blue-400 border-2': currentLang === 'en',
-      'border-gray-300': currentLang !== 'en'
+      'ring-2 ring-cyan-400': currentLang === 'en',
+      'ring-1 ring-slate-700': currentLang !== 'en'
     }"
-    class="w-10 h-10 rounded-full bg-white hover:scale-105 transition-transform shadow-md overflow-hidden p-0"
+    class="w-12 h-12 rounded-full bg-white/10 backdrop-blur-md hover:bg-white/20 transition-all shadow-lg border-2 border-white/50 overflow-hidden p-0 flex items-center justify-center"
     aria-label="English"
   >
-    <div class="w-full h-full rounded-full overflow-hidden bg-white flex items-center justify-center">
-      <img src="assets/flags/eua-flag.png" alt="Bandeira dos EUA" class="w-full h-full object-cover" />
-    </div>
+    <img src="assets/flags/eua-flag.png" alt="Bandeira dos EUA" class="w-full h-full object-cover" />
   </button>
 </div>

@@ -5,7 +5,7 @@ import { MatIcon } from "@angular/material/icon";
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [TranslateModule, MatIcon],
+  imports: [TranslateModule],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss'
 })

@@ -1,25 +1,20 @@
-.sidebar {
-    transform: translateX(-100%);
-    transition: transform 0.5s ease-in-out;
+// Navbar styles
+:host {
+  --navbar-height: 5rem; // 80px (pt-20 = 5rem)
+}
+
+// Smooth transitions for mobile menu
+.mobile-menu {
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
   }
-  
-  .sidebar.translate-x-0 {
-    transform: translateX(0);
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .sidebar.-translate-x-full {
-    transform: translateX(-100%);
-  }
-  
-  .sidebar-open {
-    @apply transform translate-x-0;
-  }
-  .sidebar-closed {
-    @apply transform -translate-x-full;
-  }
-  
-  @media (min-width: 1024px) {
-    .sidebar {
-      width: 250px;
-    }
-  }
+}
