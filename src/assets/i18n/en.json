@@ -1,7 +1,7 @@
 {
     "NAVBAR": {
         "ABOUT": "About",
-        "SKILLS" : "Skills",
+        "SKILLS": "Skills",
         "EXPERIENCE": "Experiences",
         "PROJECTS": "Projects"
     },
@@ -14,10 +14,10 @@
         "TITLE": "About Me",
         "DESCRIPTION": "Since 2020, I have been crafting robust digital solutions as a Full Stack Developer. My practical experience is centered on the C# and Angular ecosystem, with a strong focus on building and optimizing APIs and microservices architectures. I prioritize delivering clean code and functional interfaces, constantly evolving my skillset to solve complex challenges with modern technology."
     },
-    "JOBS":{
-            "TITLE": "Companies Worked",
-            "DESCRIPTION": "Developed and maintained tinting systems, focusing on APIs (C# / ASP.NET MVC) and web interfaces using Angular. Responsible for implementing new features and ensuring seamless front-end/back-end integration, while following coding best practices and meeting strict project deadlines.",
-            "DESCRIPTION2": "Developed EDI (Electronic Data Interchange) solutions for Azul Airlines. Built C# microservices for invoice processing and data integration across JSON, XML, and NOTFIS formats. Managed the analysis, troubleshooting, and transmission of logistics files (OCOREN, CONEMB, DOCCOB), ensuring data quality between commercial partners."
+    "JOBS": {
+        "TITLE": "Companies Worked",
+        "DESCRIPTION": "Developed and maintained tinting systems, focusing on APIs (C# / ASP.NET MVC) and web interfaces using Angular. Responsible for implementing new features and ensuring seamless front-end/back-end integration, while following coding best practices and meeting strict project deadlines.",
+        "DESCRIPTION2": "Developed EDI (Electronic Data Interchange) solutions for Azul Airlines. Built C# microservices for invoice processing and data integration across JSON, XML, and NOTFIS formats. Managed the analysis, troubleshooting, and transmission of logistics files (OCOREN, CONEMB, DOCCOB), ensuring data quality between commercial partners."
     },
     "MONTHS": {
         "JANUARY": "January",
@@ -35,17 +35,22 @@
     },
     "PROJECTS": {
         "TITLE": "Projects",
-        "BUTTON" : "View in Github"
+        "BUTTON": "View in Github",
+        "INSTALL_BUTTON": "Install App"
     },
-    "MYPORTFOLIO" : {
+    "MYPORTFOLIO": {
         "TITLE": "My Portfolio",
         "DESCRIPTION": "Personal website developed with Angular, TypeScript, and Tailwind CSS, showcasing projects, skills, and experiences."
     },
-    "IN_CONSTRUCTION":{
+    "TEMPO86": {
+        "TITLE": "Tempo 86",
+        "DESCRIPTION": "Order management system (KDS) developed with Angular, Tailwind CSS, Tauri (Rust), and .NET (C#), focused on high performance."
+    },
+    "IN_CONSTRUCTION": {
         "TITLE": "Amarildo Pavezzi Gardening",
         "DESCRIPTION": "This project is still under development. 🚧"
     },
-    "FOOTER":{
-        "TEXT" : "Building the future of the web with .NET and Angular. If you’re looking for a developer committed to robustness and innovation, let’s connect"
+    "FOOTER": {
+        "TEXT": "Building the future of the web with .NET and Angular. If you’re looking for a developer committed to robustness and innovation, let’s connect"
     }
 }

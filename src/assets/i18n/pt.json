@@ -1,7 +1,7 @@
 {
     "NAVBAR": {
         "ABOUT": "Sobre Mim",
-        "SKILLS" : "Habilidades",
+        "SKILLS": "Habilidades",
         "EXPERIENCE": "Experiências",
         "PROJECTS": "Projetos"
     },
@@ -27,7 +27,7 @@
         "MAY": "Maio",
         "JUNE": "Junho",
         "JULY": "Julho",
-        "AUGUST": "Agosto", 
+        "AUGUST": "Agosto",
         "SEPTEMBER": "Setembro",
         "OCTOBER": "Outubro",
         "NOVEMBER": "Novembro",
@@ -35,15 +35,20 @@
     },
     "PROJECTS": {
         "TITLE": "Projetos",
-        "BUTTON":"Ver no Github"
+        "BUTTON": "Ver no Github",
+        "INSTALL_BUTTON": "Instalar App"
     },
     "MYPORTFOLIO": {
         "TITLE": "Meu Portfólio",
         "DESCRIPTION": "Site pessoal desenvolvido com Angular, TypeScript e Tailwind CSS, apresentando projetos, habilidades e experiências.",
         "BUTTON": "Ver no Github"
     },
-    "IN_CONSTRUCTION":
-    {
+    "TEMPO86": {
+        "TITLE": "Tempo 86",
+        "DESCRIPTION": "Sistema de gerenciamento de pedidos (KDS) desenvolvido com Angular, Tailwind CSS, Tauri (Rust) e .NET (C#), focado em alta performance.",
+        "BUTTON": "Ver no Github"
+    },
+    "IN_CONSTRUCTION": {
         "TITLE": "Amarildo Pavezzi Jardinagem",
         "DESCRIPTION": "Este projeto ainda está em desenvolvimento. 🚧",
         "BUTTON": "Visitar Site"
