@@ -10,6 +10,7 @@ import { TechnologiesComponent } from './components/technologies/technologies.co
 import { FooterComponent } from "./components/footer/footer.component";
 import { TranslateService } from '@ngx-translate/core';
 import { LanguageComponent } from "./components/language/language.component";
+import { ThemeService } from './services/theme.service';
 
 @Component({
   selector: 'app-root',
@@ -22,7 +23,7 @@ export class AppComponent {
   isSidebarOpen = false;
   public currentLang: string;
 
-  constructor(private sidebarService: SidebarService, private translate: TranslateService) {
+  constructor(private sidebarService: SidebarService, private translate: TranslateService, private themeService: ThemeService) {
     translate.addLangs(['en', 'pt']);
     translate.setDefaultLang('en');
     

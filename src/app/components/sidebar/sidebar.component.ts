@@ -3,6 +3,7 @@ import { SidebarService } from './sidebar.service';
 import { CommonModule } from '@angular/common';
 import { AppComponent } from '../../app.component';
 import { TranslateModule } from '@ngx-translate/core';
+import { ThemeService } from '../../services/theme.service';
 
 @Component({
   selector: 'app-sidebar',
@@ -14,7 +15,7 @@ import { TranslateModule } from '@ngx-translate/core';
 export class SidebarComponent {
   isMobileMenuOpen = false;
 
-  constructor(private sidebarService: SidebarService, @Host() private app: AppComponent) {}
+  constructor(private sidebarService: SidebarService, @Host() private app: AppComponent, public themeService: ThemeService) {}
 
   scrollToSection(sectionId: string) {
     const el = document.getElementById(sectionId);

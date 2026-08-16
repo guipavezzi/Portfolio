@@ -16,8 +16,18 @@
     },
     "JOBS": {
         "TITLE": "Empresas Trabalhadas",
-        "DESCRIPTION": "Atuei no desenvolvimento e manutenção de sistemas tintométricos, com foco em APIs (C# / ASP.NET MVC) e interfaces web em Angular. Fui responsável pela implementação de novas funcionalidades e pela garantia de uma comunicação eficiente entre o front-end e o back-end, sempre aplicando boas práticas de código e entregas orientadas a prazos.",
-        "DESCRIPTION2": "Focado no desenvolvimento de soluções de EDI para a Azul Linhas Aéreas. Desenvolvi microsserviços em C# para processamento de notas fiscais e integração de dados, manipulando formatos como JSON, XML e NOTFIS. Realizei a análise de falhas e o envio de arquivos logísticos (OCOREN, CONEMB, DOCCOB), garantindo a integridade da comunicação entre parceiros comerciais."
+        "MICROSERVICES": "Microsserviços",
+        "INTEGRATION": "Integração",
+        "REST_APIS": "APIs REST",
+        "HETOSOFT_ITEM_1": "Atuo na manutenção contínua e correção de bugs do sistema de gestão ERP/PDV (Sol.NET), garantindo maior estabilidade e qualidade.",
+        "HETOSOFT_ITEM_2": "Auxilio no desenvolvimento e ajustes de integrações em C# (.NET) com plataformas externas e sistemas fiscais.",
+        "HETOSOFT_ITEM_3": "Realizo suporte e pequenas melhorias em rotinas do core do sistema utilizando Delphi.",
+        "DNAXIS_ITEM_1": "Atuei no desenvolvimento e manutenção full-stack de sistemas tintométricos.",
+        "DNAXIS_ITEM_2": "Desenvolvi interfaces web modernas e responsivas utilizando Angular.",
+        "DNAXIS_ITEM_3": "Construí e integrei APIs em C# (ASP.NET MVC), garantindo comunicação eficiente e aplicação contínua de boas práticas e prazos.",
+        "ONLINE_ITEM_1": "Construí soluções de EDI para a Azul Linhas Aéreas, criando microsserviços em C# para processamento ágil de notas fiscais.",
+        "ONLINE_ITEM_2": "Estruturei a integração e manipulação de dados operando com múltiplos formatos, como JSON, XML e NOTFIS.",
+        "ONLINE_ITEM_3": "Realizei análise de falhas e gestão do envio de arquivos logísticos (OCOREN, CONEMB, DOCCOB), garantindo a integridade da comunicação entre parceiros."
     },
     "MONTHS": {
         "JANUARY": "Janeiro",
@@ -31,7 +41,8 @@
         "SEPTEMBER": "Setembro",
         "OCTOBER": "Outubro",
         "NOVEMBER": "Novembro",
-        "DECEMBER": "Dezembro"
+        "DECEMBER": "Dezembro",
+        "PRESENT": "Atualmente"
     },
     "PROJECTS": {
         "TITLE": "Projetos",
@@ -54,6 +65,6 @@
         "BUTTON": "Visitar Site"
     },
     "FOOTER": {
-        "TEXT": "Construindo o futuro da web com .NET e Angular. Se você busca um desenvolvedor comprometido com robustez e inovação, entre em contato"
+        "TEXT": "Transformando desafios complexos em soluções elegantes e escaláveis."
     }
 }
