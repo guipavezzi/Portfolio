@@ -16,8 +16,18 @@
     },
     "JOBS": {
         "TITLE": "Companies Worked",
-        "DESCRIPTION": "Developed and maintained tinting systems, focusing on APIs (C# / ASP.NET MVC) and web interfaces using Angular. Responsible for implementing new features and ensuring seamless front-end/back-end integration, while following coding best practices and meeting strict project deadlines.",
-        "DESCRIPTION2": "Developed EDI (Electronic Data Interchange) solutions for Azul Airlines. Built C# microservices for invoice processing and data integration across JSON, XML, and NOTFIS formats. Managed the analysis, troubleshooting, and transmission of logistics files (OCOREN, CONEMB, DOCCOB), ensuring data quality between commercial partners."
+        "MICROSERVICES": "Microservices",
+        "INTEGRATION": "Integration",
+        "REST_APIS": "REST APIs",
+        "HETOSOFT_ITEM_1": "Perform continuous maintenance and bug fixing for the ERP/POS management system (Sol.NET), ensuring greater stability and quality.",
+        "HETOSOFT_ITEM_2": "Assist in the development and adjustment of C# (.NET) integrations with external platforms and tax systems.",
+        "HETOSOFT_ITEM_3": "Provide support and implement minor improvements in core system routines using Delphi.",
+        "DNAXIS_ITEM_1": "Developed and maintained full-stack tinting systems.",
+        "DNAXIS_ITEM_2": "Built modern and responsive web interfaces using Angular.",
+        "DNAXIS_ITEM_3": "Developed and integrated C# APIs (ASP.NET MVC), ensuring efficient communication, best practices, and strict deadlines.",
+        "ONLINE_ITEM_1": "Built EDI solutions for Azul Airlines, creating C# microservices for agile invoice processing.",
+        "ONLINE_ITEM_2": "Structured data integration and manipulation across multiple formats, including JSON, XML, and NOTFIS.",
+        "ONLINE_ITEM_3": "Managed analysis and transmission of logistics files (OCOREN, CONEMB, DOCCOB), ensuring data integrity between partners."
     },
     "MONTHS": {
         "JANUARY": "January",
@@ -31,7 +41,8 @@
         "SEPTEMBER": "September",
         "OCTOBER": "October",
         "NOVEMBER": "November",
-        "DECEMBER": "December"
+        "DECEMBER": "December",
+        "PRESENT": "Present"
     },
     "PROJECTS": {
         "TITLE": "Projects",
@@ -51,6 +62,6 @@
         "DESCRIPTION": "This project is still under development. 🚧"
     },
     "FOOTER": {
-        "TEXT": "Building the future of the web with .NET and Angular. If you’re looking for a developer committed to robustness and innovation, let’s connect"
+        "TEXT": "Transforming complex challenges into elegant and scalable solutions."
     }
 }
