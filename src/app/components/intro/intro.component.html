@@ -24,10 +24,27 @@
         class="flex items-center justify-center w-14 h-14 bg-white/60 dark:bg-white/5 border border-slate-200 dark:border-white/10 rounded-full text-slate-600 dark:text-violet-100 hover:text-cyan-600 dark:hover:text-white hover:bg-cyan-50 dark:hover:bg-cyan-500/20 hover:border-cyan-300 dark:hover:border-cyan-500/50 hover:shadow-lg dark:hover:shadow-[0_0_15px_rgba(6,182,212,0.4)] transition-all duration-300 hover:-translate-y-1">
         <span class="icon-[mdi--linkedin] text-3xl"></span>
       </a>
-      <a href="mailto:gui.pavezzi07@gmail.com" target="_blank"
+      <button [cdkMenuTriggerFor]="emailMenu"
         class="flex items-center justify-center w-14 h-14 bg-white/60 dark:bg-white/5 border border-slate-200 dark:border-white/10 rounded-full text-slate-600 dark:text-violet-100 hover:text-red-600 dark:hover:text-white hover:bg-red-50 dark:hover:bg-red-500/20 hover:border-red-300 dark:hover:border-red-500/50 hover:shadow-lg dark:hover:shadow-[0_0_15px_rgba(239,68,68,0.4)] transition-all duration-300 hover:-translate-y-1">
         <span class="icon-[mdi--gmail] text-3xl"></span>
-      </a>
+      </button>
+
+      <ng-template #emailMenu>
+        <div class="flex flex-col bg-white dark:bg-slate-800 rounded-xl shadow-2xl border border-slate-200 dark:border-slate-700 py-2 w-52 overflow-hidden" cdkMenu>
+          <button cdkMenuItem class="px-4 py-3 text-left hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-violet-100 flex items-center gap-3 transition-colors duration-200 focus:outline-none focus:bg-slate-100 dark:focus:bg-slate-700 font-medium"
+                  (click)="copyEmail()">
+            <span class="icon-[mdi--content-copy] text-2xl text-slate-500 dark:text-slate-400"></span> Copiar Email
+          </button>
+          <a cdkMenuItem class="px-4 py-3 text-left hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-violet-100 flex items-center gap-3 transition-colors duration-200 focus:outline-none focus:bg-slate-100 dark:focus:bg-slate-700 font-medium"
+             href="https://mail.google.com/mail/?view=cm&fs=1&to=gui.pavezzi07@gmail.com" target="_blank">
+            <span class="icon-[mdi--gmail] text-2xl text-red-500"></span> Abrir no Gmail
+          </a>
+          <a cdkMenuItem class="px-4 py-3 text-left hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-700 dark:text-violet-100 flex items-center gap-3 transition-colors duration-200 focus:outline-none focus:bg-slate-100 dark:focus:bg-slate-700 font-medium"
+             href="https://outlook.live.com/mail/0/deeplink/compose?to=gui.pavezzi07@gmail.com" target="_blank">
+            <span class="icon-[mdi--microsoft-outlook] text-2xl text-blue-500"></span> Abrir no Outlook
+          </a>
+        </div>
+      </ng-template>
     </div>
   </div>
 </section>
