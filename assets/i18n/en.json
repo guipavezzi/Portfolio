@@ -47,7 +47,8 @@
     "PROJECTS": {
         "TITLE": "Projects",
         "BUTTON": "View in Github",
-        "INSTALL_BUTTON": "Install App"
+        "INSTALL_BUTTON": "Install App",
+        "VISIT_BUTTON": "Visit Website"
     },
     "MYPORTFOLIO": {
         "TITLE": "My Portfolio",
